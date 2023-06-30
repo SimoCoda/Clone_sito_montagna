@@ -34,25 +34,27 @@ body{
 }
 .header{
     display: flex;
+    max-width: 1800px;
     margin: auto;
     margin-bottom: 30px;
+    padding-top: 20px;
 }
 .primoContenitore{
     height: 100px;
+    width: 30%;
     margin: auto;
-    margin-left: 230px;
-    margin-right: 550px;
 }
 #logo{
     width: 234px;
     height: 100px;
+    padding-left: 180px;
 }
 .nav{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     float: right;
-    margin-right: 50px;
-    margin-top: 40px;
+    width: 70%;
 }
 .nav a{
     font-size: 17px;
@@ -74,13 +76,19 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
-#icona{
+.icona{
     height: 30px;
     margin-right: 55px;
     margin-left: 65px;
     cursor: pointer;
 }
-#search{
+.searchBar{
+    /* width: 250px; */
+    /* background-color: #E4003B; */
+    border-radius: 20px;
+    text-align: right;
+}
+.search{
     height: 48px;
     cursor: pointer;
 }
@@ -128,7 +136,7 @@ body{
     font-size: 55px;
 }
 .titoloScomposto{
-    color: red;
+    color: #E4003B;
     font-family: 'TekoSemibold';
     height: 550px;
 }
@@ -179,7 +187,7 @@ body{
 #frecciaDx{
     width: 66px;
     height: 66px;
-    background-color: red;
+    background-color: #E4003B;
     border: 0;
     cursor: pointer;
 }
@@ -209,7 +217,7 @@ body{
 }
 #prima{
     font-size: 60px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #E4003B;
     padding-bottom: 10px;
     width: 60px;
 }
@@ -257,7 +265,7 @@ body{
 }
 .descrizione span{
     font-size: 17px;
-    color: red;
+    color: #E4003B;
     font-family: 'TekoSemibold';
 }
 .descrizione h2{
@@ -300,7 +308,7 @@ body{
 }
 .sezioneScarpe .titolo .numero{
     font-size: 60px;
-    color: red;
+    color: #E4003B;
     padding-top: 50px;
     font-family: 'TekoSemibold';
 }
@@ -312,7 +320,7 @@ body{
     font-family: 'TekoSemibold'
 }
 .titolo .challenges{
-    color: red;
+    color: #E4003B;
     position: relative;
     font-size: 96px;
     top: 85px;
@@ -384,7 +392,7 @@ body{
 .quartoContenitore h1{
     font-size: 280px;
     font-family: 'TekoSemibold';
-    color: red;
+    color: #E4003B;
     margin: 0;
     margin-bottom: -110px;
 }
@@ -395,7 +403,7 @@ body{
     margin-bottom: 30px;
 }
 .quartoContenitore h2 span{
-    color: red;
+    color: #E4003B;
 }
 .primoDiv .findOutMore{
     width: 110px;
@@ -432,7 +440,7 @@ body{
     width: 492px;
     height: 796px;
     margin: auto;
-    border: 30px solid red;
+    border: 30px solid #E4003B;
     /* creare il bordo interno */
     box-sizing: border-box; 
     margin-top: 100px;
@@ -476,7 +484,7 @@ body{
     right: 40px;
 }
 .quintoContenitore h2{
-    color: red;
+    color: #E4003B;
     font-size: 174px;
     font-family: 'TekoSemibold';
     transform: rotate(270deg);
@@ -579,7 +587,7 @@ body{
 .upRight hr{
     width: 70px;
     height: 2px;
-    background-color: red;
+    background-color: #E4003B;
     border: 0;
     margin-top: -15px;
 }
@@ -589,7 +597,7 @@ body{
 .upRight .numeretti #primo{
     font-size: 60px;
     font-family: 'TekoSemibold';
-    /* border-bottom: 2px solid red; */
+    /* border-bottom: 2px solid #E4003B; */
     text-align: right;
     width: 70px;
     color: black;
@@ -683,7 +691,7 @@ body{
     margin-bottom: 20px;
 }
 .sestoContenitore .textVicinoImmagini .gallery .titoloStorto{
-    color: red;
+    color: #E4003B;
     font-size: 70px;
     font-family: 'AdevaleRegular';
     transform:rotate(-15deg);
@@ -769,7 +777,7 @@ body{
     transform: scale(1.1);
 }
 .settimoContenitoreInterno div span{
-    color: red;
+    color: #E4003B;
     font-size: 36px;
     font-family: 'TekoMedium';
 }
