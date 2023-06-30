@@ -151,14 +151,14 @@ gsap.fromTo('.quintoContenitore #frecciaDx',{
     opacity: 0, scale: 0, rotation: 720
 },{
     scrollTrigger : ".quintoContenitore #frecciaDx" , // avvia l'animazione quando ".box" entra nel viewport (una volta)
-    duration:2, opacity: 1, scale: 1, rotation: 0, delay: 2
+    duration:3, opacity: 1, scale: 1, rotation: 0, delay: 1
 });
 gsap.fromTo('.quintoContenitore #frecciaSx',{
     scrollTrigger : ".quintoContenitore #frecciaSx" , // avvia l'animazione quando ".box" entra nel viewport (una volta)
     opacity: 0, scale: 0, rotation: 720
 },{
     scrollTrigger : ".quintoContenitore #frecciaSx" , // avvia l'animazione quando ".box" entra nel viewport (una volta)
-    duration:2, opacity: 1, scale: 1, rotation: 180, delay: 2
+    duration:3, opacity: 1, scale: 1, rotation: 180, delay: 1
 });
 
 gsap . fromTo ( ".sestoContenitore .tendaNotte" , { 
