@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js" defer></script>
+
+    <script src="./assets/js/script.js" defer></script>
+    <title>Adventure</title>
+</head>
+
+<body>
+    <header class="header" id="top">
+        <div class="primoContenitore">
+            <img src="./assets/images/svg/logo_header.svg" alt="logo" id="logo">
+        </div>
+        <nav class="nav">
+            <a href="#" id="larghezza">OUR COMPETITORS</a>
+            <a href="#"  id="larghezza">FOR PROFESSIONALS</a>
+            <a href="#" >CONTACT</a>
+            <hr id="riga">
+            <a href="#" >ENG</a>
+            <img src="./assets/images/svg/Login.svg" alt="icona" id="icona">
+            <img src="./assets/images/svg/ico_search.svg" alt="icona" id="search">
+        </nav>
+    </header>
+
+    <section class="secondoContenitore">
+        <div class="primoContainer">
+            <div class="testoVerticale">
+                <h1>Find out if you can</h1>
+            </div>
+        </div>
+        <div class="social">
+            <img src="./assets/images/svg/Social logos PNG.svg" class="icon">
+        </div>
+        <div class="secondoContainer">
+            <div class="titoloScomposto">
+                <h2>SU<br>RVI<br>VE</h2>
+            </div>
+            <img src="./assets/images/svg/ico_BigArrow.svg" id="freccia">
+            <div class="primaDescrizione">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor.</p>
+            </div>
+        </div>
+        <div class="parteSliders">
+            <div class="slider">
+                <!-- <img src="./assets/images/montagna.jpg">
+                <img src="./assets/images/montagna1.jpg">
+                <img src="./assets/images/montagna2.jpg">
+                <img src="./assets/images/montagna3.jpg">
+                <img src="./assets/images/montagna4.jpg"> -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./assets/images/montagna.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/montagna1.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/montagna2.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/montagna3.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/montagna4.jpg"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            
+            <div class="freccieDirezzionali">
+                <div>
+                    <button id="frecciaDx" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.414" height="18.828" viewBox="0 0 26.414 18.828">
+                            <g id="ico_arrow" transform="translate(1 1.414)">
+                              <line id="Linea_10" data-name="Linea 10" x2="8" y2="8" transform="translate(16)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_11" data-name="Linea 11" y1="8" x2="8" transform="translate(16 8)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_12" data-name="Linea 12" x2="24" transform="translate(0 8)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              <g id="ico_arrow-2" data-name="ico_arrow" transform="translate(11.5 3)">
+                                <line id="Linea_10-2" data-name="Linea 10" x2="5" y2="5" transform="translate(0.5)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                                <line id="Linea_11-2" data-name="Linea 11" y1="5" x2="5.5" transform="translate(0 5)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+                <div>
+                    <button id="frecciaSx" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.414" height="18.828" viewBox="0 0 26.414 18.828">
+                            <g id="ico_arrow" transform="translate(1 1.414)">
+                              <line id="Linea_10" data-name="Linea 10" x2="8" y2="8" transform="translate(16)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_11" data-name="Linea 11" y1="8" x2="8" transform="translate(16 8)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_12" data-name="Linea 12" x2="24" transform="translate(0 8)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              <g id="ico_arrow-2" data-name="ico_arrow" transform="translate(11.5 3)">
+                                <line id="Linea_10-2" data-name="Linea 10" x2="5" y2="5" transform="translate(0.5)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                                <line id="Linea_11-2" data-name="Linea 11" y1="5" x2="5.5" transform="translate(0 5)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div> 
+        <div class="numeriPagina">
+            <span id="prima">01</span>
+            <span id="seconda">02</span>
+            <span id="terza">03</span>
+        </div>
+    </section>
+
+    <section class="terzoContenitore">
+        <div class="sezioneFuoco">
+            <h2 class="popular">Popular challenges</h2>
+            <div class="immaginiFuoco">
+                <img src="./assets/images/fuoco1.jpg" alt="fuoco1">
+                <div class="descrizione">
+                    <span>KEY SKILLS</span>
+                    <h2>Friction-Based Fire Making</h2>
+                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                        consequatur,
+                        vel illum qui dolorem.</p>
+                    <div class="findOutMore">
+                        <img src="./assets/images/svg/xRossa.svg">
+                        <span>FIND OUT MORE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="immaginiFuoco">
+                <img src="./assets/images/fuoco2.jpg" alt="fuoco1">
+                <div class="descrizione">
+                    <span>KEY SKILLS</span>
+                    <h2>Make your own shelter</h2>
+                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                        consequatur,
+                        vel illum qui dolorem.</p>
+                    <div class="findOutMore">
+                        <img src="./assets/images/svg/xRossa.svg">
+                        <span>FIND OUT MORE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="immaginiFuoco">
+                <img src="./assets/images/fuoco3.jpg" alt="fuoco1">
+                <div class="descrizione">
+                    <span>KEY SKILLS</span>
+                    <h2>Prepare a meal in the forest</h2>
+                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                        consequatur,
+                        vel illum qui dolorem.</p>
+                    <div class="findOutMore">
+                        <img src="./assets/images/svg/xRossa.svg">
+                        <span>FIND OUT MORE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sezioneScarpe">
+            <div class="titolo">
+                <h2 class="numero">01</h2>
+                <h2>ENDUR<br>ANCE</h2>
+                <p class="challenges">challenges</p>
+            </div>
+            <img src="./assets/images/shoes.png" alt="scarpe" id="scarpe">
+            <div class="descrizioneScarpe">
+                <span>Mission</span>
+                <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy tempor.</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                </p>
+                <div class="findOutMore">
+                    <img src="./assets/images/svg/xRossa.svg">
+                    <span>FIND OUT MORE</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quartoContenitore">
+        <div class="primoDiv">
+            <h3>COMPLETED CHALLENGES</h3>
+            <h1>13</h1>
+            <h2>You have <br><span>78%</span> change for survival</h2>
+            <div class="findOutMore">
+                <img src="./assets/images/svg/xRossa.svg">
+                <span>SEE MORE</span>
+            </div>
+        </div>
+        <div class="secondoDiv">
+            <h2>YOUR RESULTS</h2>
+            <img src="./assets/images/svg/ico_BigArrow.svg" id="freccia">
+        </div>
+        <div class="terzoDiv">
+            <div class="text">
+                <h1>SHARE YOUR RESULTS ON SOCIAL MEDIA</h1>
+                <h2>Lorem ipsum dolor sit amet, consetetur diam nonumy tempor.</h2>
+                <div class="findOutMore">
+                    <img src="./assets/images/svg/xRossa.svg">
+                    <span>SEE RESULTS FROM YOUR FRIENDS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quintoContenitore">
+        <div class="title">
+            <h2>ADVICE</h2>
+        </div>
+        <div class="immagineTenda">
+            <div class="slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./assets/images/uomoCampeggio.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/campeggio1.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/campeggio2.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/campeggio3.jpg"></div>
+                      <div class="swiper-slide"><img src="./assets/images/campeggio4.jpg"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="bottomLeft">
+                <div class="textBottomLeft">
+                    <h1>SURVIVAL MODE</h1>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam 
+                        erat, sed diam voluptua.
+                    </p>
+                    <div class="findOutMore">
+                        <img src="./assets/images/svg/xRossa.svg">
+                        <span>MORE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="upRight">
+                <div class="numeretti">
+                    <h3 id="primo">01</h3>
+                    <hr>
+                    <h3 id="secondo">03</h3>
+                </div>
+            </div>
+            <div class="freccieDirezzionali">
+                <div>
+                    <button id="frecciaDx" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.414" height="18.828" viewBox="0 0 26.414 18.828">
+                            <g id="ico_arrow" transform="translate(1 1.414)">
+                              <line id="Linea_10" data-name="Linea 10" x2="8" y2="8" transform="translate(16)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_11" data-name="Linea 11" y1="8" x2="8" transform="translate(16 8)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_12" data-name="Linea 12" x2="24" transform="translate(0 8)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              <g id="ico_arrow-2" data-name="ico_arrow" transform="translate(11.5 3)">
+                                <line id="Linea_10-2" data-name="Linea 10" x2="5" y2="5" transform="translate(0.5)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                                <line id="Linea_11-2" data-name="Linea 11" y1="5" x2="5.5" transform="translate(0 5)" fill="none" stroke="#edf0f2" stroke-linecap="round" stroke-width="2"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+                <div>
+                    <button id="frecciaSx" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26.414" height="18.828" viewBox="0 0 26.414 18.828">
+                            <g id="ico_arrow" transform="translate(1 1.414)">
+                              <line id="Linea_10" data-name="Linea 10" x2="8" y2="8" transform="translate(16)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_11" data-name="Linea 11" y1="8" x2="8" transform="translate(16 8)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              <line id="Linea_12" data-name="Linea 12" x2="24" transform="translate(0 8)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              <g id="ico_arrow-2" data-name="ico_arrow" transform="translate(11.5 3)">
+                                <line id="Linea_10-2" data-name="Linea 10" x2="5" y2="5" transform="translate(0.5)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                                <line id="Linea_11-2" data-name="Linea 11" y1="5" x2="5.5" transform="translate(0 5)" fill="none" stroke="black" stroke-linecap="round" stroke-width="2"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sestoContenitore">
+        <div class="sestoContenitoreInterno">
+            <div class="tendaNotte">
+                <img src="./assets/images/svg/ico_youtube.svg" alt="youtube">
+                <p>06.08.2019.  | SHELTER MAKING</p>
+                <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed </h6>
+            </div>
+            <div class="pentolino">
+                <img src="./assets/images/svg/pictures.svg" alt="galleria">
+                <p>06.08.2019.  | SHELTER MAKING</p>
+                <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed </h6>
+            </div>
+            <div class="textVicinoImmagini">
+                <div class="gallery">
+                    <span>GALLERY</span>
+                    <p class="titoloStorto">Foto & video</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+                        aliquyam erat, sed diam voluptua.
+                    </p>
+                </div>
+                <div class="findOutMore">
+                    <img src="./assets/images/svg/xRossa.svg">
+                    <span>MORE</span>
+                </div>
+            </div>
+        </div>
+        <a href="#top"><img src="./assets/images/svg/ico_BigArrow.svg" alt="freccia" id="freccia"></a>
+    </section>
+
+    <footer class="settimoContenitore">
+        <div class="firstContainer">
+            <div class="logoFooter">
+                <img src="./assets/images/svg/logo.svg" alt="logo">
+            </div>
+            <div class="settimoContenitoreInterno">
+                <div class="links">
+                    <span>CHALLENGES</span>
+                    <div class="linksChallenges">
+                        <a href="#">Endurance</a><br>
+                        <a href="#">Survival</a><br>
+                        <a href="#">Key skills</a><br>
+                        <a href="#">Survival kit</a><br>
+                        <a href="#">Shelter making</a><br>
+                        <a href="#">Food challenges</a>   
+                    </div>
+                    <img src="./assets/images/socialFooter.png" alt="loghi social">
+                </div>
+                <div class="links">
+                    <span>ADVICES</span>
+                    <div>
+                        <a href="#">Mountain survival</a> <br>
+                        <a href="#">Forest challenges</a> <br>
+                        <a href="#">How to make your shelter</a> <br>
+                        <a href="#">What to eat in forest</a> <br>
+                        <a href="#">How to stay safe</a> <br>
+                        <a href="#">What to wear</a> 
+                    </div>
+                </div>
+                <div class="links">
+                    <span>GALLERY</span>
+                    <div>
+                        <a href="#">Foto Gallery</a> <br>
+                        <a href="#">Video Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
