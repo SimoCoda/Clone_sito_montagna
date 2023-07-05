@@ -351,9 +351,7 @@ body{
     line-height: 110%;
 }
 .sezioneScarpe p{
-    font-size: 14px;
     color: black;
-    /* font-family: 'TTLakes'; */
     width: 450px;
     margin-bottom: 20px;
 }
@@ -913,6 +911,7 @@ body{
         max-width: 100%;
         left: 0;
         flex-direction: column; 
+        margin-bottom: 90px;
     }
     .primoContainer{
         width: 100%;
@@ -957,7 +956,7 @@ body{
         max-width: 100%;
         flex-direction: column;
         margin-left: 20px;
-        margin-top: -100px;
+        margin-bottom: -350px;
     }
     .immaginiFuoco{
         display: flex;
@@ -978,8 +977,56 @@ body{
     .findOutMore img{
         height: 20px; 
     }
+    .sezioneScarpe{
+        right: 0;
+    }
+    .sezioneScarpe .titolo .numero{
+        font-size: 30px;
+    }
+    .sezioneScarpe .titolo h2{
+        font-size: 100px;
+        line-height: 70px;
+        padding-top: 20px;
+    }
+    .titolo .challenges{
+        font-size: 60px;
+        top: 60px;
+        left: -90px;
+    }
+    #scarpe{
+        height: 250px;
+    }
+    .sezioneScarpe #scarpe{
+        top: 220px;
+        left: 0px;
+    }
+    .sezioneScarpe span{
+        font-size: 30px;
+        /* margin-bottom: -270px; */
+        margin-top: -150px;
+    }
+    .sezioneScarpe h3{
+        font-size: 15px;
+        /* margin-bottom: -270px;   */
+    }
+    .sezioneScarpe p{
+        width: 200%;
+        /* margin-bottom: 20px; */
+    }
+    .descrizioneScarpe{
+        margin-top: 300px;
+        height: 100px;
+    }
+    .terzoDiv .findOutMore{
+        align-items: center;
+    }
+    .sezioneScarpe .findOutMore span{
+        font-size: 11px;
+        padding-top: 150px;
+    }
     .quartoContenitore{
         max-width: 100%;
+        margin-bottom: 0;
     }
     .quintoContenitore{
         max-width: 100%;
