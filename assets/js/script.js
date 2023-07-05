@@ -1,3 +1,25 @@
+let searchInput = false;
+let el = document.getElementById("searchBar");
+let input = document.getElementById("input");
+
+function changeStyleSearch(){
+
+    if(searchInput == true){
+        input.style.display = "none";
+        el.style.width = "initial";
+        el.style.backgroundColor = "initial";
+        searchInput = !searchInput;
+    }else{
+        el.style.width = "200px";
+        el.style.backgroundColor = "#E4003B";
+        
+        input.style.display = "block";
+
+        searchInput = !searchInput;
+        console.log(searchInput);
+    }
+}
+
 var swiper = new Swiper(".mySwiper", {
     loop: true,
     pagination: {
@@ -51,42 +73,42 @@ gsap . fromTo ( ".sezioneScarpe .titolo" , {
     opacity : 0, scale: 0, x: '500px'
 },{
     scrollTrigger : ".sezioneFuoco .descrizione" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
-    duration: 2, opacity: 1, scale : 1,x: '0' ,
+    duration: 1, opacity: 1, scale : 1,x: '0' ,
 });
 gsap . fromTo ( ".sezioneScarpe img" , { 
     scrollTrigger : ".sezioneFuoco h2" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
     opacity : 0, scale: 0,
 },{
-    scrollTrigger : ".sezioneFuoco img" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
-    duration: 4, opacity: 1, scale : 1, delay: 2,
+    scrollTrigger : ".sezioneScarpe img" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    duration: 2, opacity: 1, scale : 1, delay: 1,
 });
 gsap . fromTo ( ".sezioneScarpe .descrizioneScarpe span" , { 
-    scrollTrigger : ".sezioneFuoco h2" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe span" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
     opacity : 0,
 },{
-    scrollTrigger : ".sezioneFuoco .descrizioneScarpe span" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
-    duration: 4, opacity: 1, delay: 4,
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe span" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    duration: 2, opacity: 1, delay: 2,
 });
 gsap . fromTo ( ".sezioneScarpe .descrizioneScarpe h3" , { 
-    scrollTrigger : ".sezioneFuoco h2" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe h3" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
     opacity : 0,
 },{
-    scrollTrigger : ".sezioneFuoco .descrizioneScarpe h3" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
-    duration: 4, opacity: 1, delay: 4.2,
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe h3" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    duration: 2, opacity: 1, delay: 2.2,
 });
 gsap . fromTo ( ".sezioneScarpe .descrizioneScarpe p" , { 
-    scrollTrigger : ".sezioneFuoco h2" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe p" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
     opacity : 0,
 },{
-    scrollTrigger : ".sezioneFuoco .descrizioneScarpe p" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
-    duration: 4, opacity: 1, delay: 4.5,
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe p" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    duration: 2, opacity: 1, delay: 2.5,
 });
 gsap . fromTo ( ".sezioneScarpe .descrizioneScarpe .findOutMore" , { 
-    scrollTrigger : ".sezioneFuoco h2" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe .findOutMore" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
     opacity : 0,
 },{
-    scrollTrigger : ".sezioneFuoco .descrizioneScarpe .findOutMore" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
-    duration: 4, opacity: 1, delay: 4.6,
+    scrollTrigger : ".sezioneScarpe .descrizioneScarpe .findOutMore" , // avvia l'animazione quando ".box" entra nel viewport (una volta) 
+    duration: 2, opacity: 1, delay: 2.6,
 });
 
 gsap . fromTo ( ".quartoContenitore .primoDiv" , { 

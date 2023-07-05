@@ -14,7 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js" defer></script>
+
 
     <script src="./assets/js/script.js" defer></script>
     <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" />
@@ -33,8 +34,9 @@
             <hr id="riga">
             <a href="#" >ENG</a>
             <img src="./assets/images/svg/Login.svg" alt="icona" class="icona">
-            <div class="searchBar">
-                <img src="./assets/images/svg/ico_search.svg" alt="icona" class="search">
+            <div id="searchBar">
+                <img src="./assets/images/svg/ico_search.svg" alt="icona" id="search" onclick="changeStyleSearch()" >
+                <input type="text" id="input" placeholder="Search a word">
             </div>
         </nav>
     </header>
@@ -119,7 +121,7 @@
                 <div class="descrizione">
                     <span>KEY SKILLS</span>
                     <h2>Friction-Based Fire Making</h2>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                    <p class="paragraph">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
                         consequatur,
                         vel illum qui dolorem.</p>
                     <div class="findOutMore">
@@ -133,7 +135,7 @@
                 <div class="descrizione">
                     <span>KEY SKILLS</span>
                     <h2>Make your own shelter</h2>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                    <p class="paragraph">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
                         consequatur,
                         vel illum qui dolorem.</p>
                     <div class="findOutMore">
@@ -147,7 +149,7 @@
                 <div class="descrizione">
                     <span>KEY SKILLS</span>
                     <h2>Prepare a meal in the forest</h2>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                    <p class="paragraph">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
                         consequatur,
                         vel illum qui dolorem.</p>
                     <div class="findOutMore">
@@ -167,7 +169,7 @@
             <div class="descrizioneScarpe">
                 <span>Mission</span>
                 <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy tempor.</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+                <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
                     et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                 </p>
                 <div class="findOutMore">
@@ -224,7 +226,7 @@
             <div class="bottomLeft">
                 <div class="textBottomLeft">
                     <h1>SURVIVAL MODE</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
                         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam 
                         erat, sed diam voluptua.
                     </p>
@@ -292,7 +294,7 @@
                 <div class="gallery">
                     <span>GALLERY</span>
                     <p class="titoloStorto">Foto & video</p>
-                    <p>
+                    <p class="paragraph">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
                         aliquyam erat, sed diam voluptua.
                     </p>
