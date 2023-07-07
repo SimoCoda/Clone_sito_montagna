@@ -385,13 +385,12 @@ body{
 .quartoContenitore .terzoDiv{
     width: 65%;
 }
-.quartoContenitore h3{
+.quartoContenitore .primoDiv h3{
     font-size: 17px;
     font-family: 'TekoSemibold';
-    /* padding-top: 300px; */
     margin-bottom: -80px;
 }
-.quartoContenitore h1{
+.quartoContenitore .primoDiv h1{
     font-size: 280px;
     font-family: 'TekoSemibold';
     color: #E4003B;
@@ -520,7 +519,6 @@ body{
     width: 100%;
     height: 612px;
     float: right;
-    background-color: greenyellow;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -546,20 +544,17 @@ body{
     position: relative;
     left: 717px;
     z-index: 2;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .immagineTenda .freccieDirezzionali{
     position: relative;
     top: 480px;
     left: 645px;
     z-index: 2;
-}
-.bottomLeft{
-    width: 492px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 .bottomLeft .textBottomLeft{
     width: 80%;
@@ -956,7 +951,7 @@ body{
         max-width: 100%;
         flex-direction: column;
         margin-left: 20px;
-        margin-bottom: -350px;
+        margin-bottom: -400px;
     }
     .immaginiFuoco{
         display: flex;
@@ -1002,16 +997,13 @@ body{
     }
     .sezioneScarpe span{
         font-size: 30px;
-        /* margin-bottom: -270px; */
         margin-top: -150px;
     }
     .sezioneScarpe h3{
         font-size: 15px;
-        /* margin-bottom: -270px;   */
     }
     .sezioneScarpe p{
         width: 200%;
-        /* margin-bottom: 20px; */
     }
     .descrizioneScarpe{
         margin-top: 300px;
@@ -1027,9 +1019,147 @@ body{
     .quartoContenitore{
         max-width: 100%;
         margin-bottom: 0;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 20px;
+    }
+    .quartoContenitore .primoDiv{
+        width: 100%;
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .quartoContenitore .primoDiv h3{
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: -10px;
+    }
+    .quartoContenitore .primoDiv h1{
+        font-size: 60px;
+        margin: 0;
+        /* margin-bottom: -110px; */
+    }
+    .quartoContenitore .divPerResponsive{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .quartoContenitore .secondoDiv{
+        width: 10%;
+    }
+    .quartoContenitore .secondoDiv h2{
+        font-size: 60px;
+        right: 420px;
+        top: -290px;
+    }
+    .quartoContenitore .secondoDiv #freccia{
+        height: 140px;
+        top: 80px;
+        left: 0;
+    }
+    .quartoContenitore .terzoDiv{
+        width: 80%;
+        height: 510px;
+        background-size: cover;
+    }
+    .quartoContenitore .terzoDiv .text{
+        width: 80%;
+        height: 410px;
+        background-size: cover;
+        border: 10px solid #E4003B;
+        margin: auto;
+    }
+    .text h1{
+        font-size: 16px;
+        padding-top: 230px;
+        margin: auto;
+    }
+    .text h2{
+        font-size: 14px;
+        width: 90%;
+        line-height: 20px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .text .findOutMore{
+        width: 170px;
+    }
+    .text .findOutMore span{
+        padding-left: 0px;
     }
     .quintoContenitore{
-        max-width: 100%;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .quintoContenitore .title{
+        top: 180px;
+        right: 0;
+        left: 10px;
+    }
+    .immagineTenda .swiper {
+        width: 400px;
+        height: 410px;
+    }
+    .immagineTenda .bottomLeft{
+        width: 292px;
+        height: 200px;
+        background-color: yellow;
+    }
+    .bottomLeft p{
+        line-height: 15px;
+    }
+    .immagineTenda .upRight{
+        width: 50px;
+        height: 50px;
+        background-color: #edf0f2;
+        position: relative;
+        left: 60px;
+        z-index: 2;
+    }
+    .immagineTenda .freccieDirezzionali{
+        position: relative;
+        top: 480px;
+        left: 645px;
+        z-index: 2;
+    }
+    .bottomLeft{
+        width: 492px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bottomLeft h1{
+        font-size: 20px;
+        margin-bottom: -15px;
+    }
+    .bottomLeft .findOutMore{
+        width: 50px;
+    }
+    .upRight hr{
+        width: 15px;
+        height: 2px;
+    }
+    .upRight .numeretti{
+        margin-top: 5px;
+    }
+    .upRight .numeretti #primo{
+        font-size: 20px;
+    }
+    .upRight .numeretti #secondo{
+        font-size: 14px;
+        font-family: 'TekoSemibold';
+        text-align: right;
+        width: 70px;
+        color: black;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .quintoContenitore h2{
+        font-size: 60px;
     }
     .sestoContenitore{
         max-width: 100%;
